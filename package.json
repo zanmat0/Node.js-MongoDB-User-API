@@ -1,0 +1,29 @@
+{
+  "name": "node.js-mongodb-user-api",
+  "version": "1.0.0",
+  "description": "An API using node.js and MongoDB to register and store users using JWT. The API also supports refresh token flow when the user session has expired.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanmat0/Node.js-MongoDB-User-API.git"
+  },
+  "author": "Håvard Kjelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanmat0/Node.js-MongoDB-User-API/issues"
+  },
+  "homepage": "https://github.com/zanmat0/Node.js-MongoDB-User-API#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "nvm": "0.0.4",
+    "uuid": "^9.0.1"
+  }
+}
